@@ -6,12 +6,14 @@
 // environment: .NET 2.0
 // copyright  : (c) 2011-2012 by Itenso GmbH, Switzerland
 // --------------------------------------------------------------------------
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Itenso.TimePeriod;
+using TimePeriod;
+using TimePeriod.Interfaces;
 
-namespace Itenso.TimePeriodDemo.Thermostat
+namespace TimePeriodDemo.Thermostat
 {
 
 	// ------------------------------------------------------------------------

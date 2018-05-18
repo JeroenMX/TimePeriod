@@ -6,9 +6,10 @@
 // environment: .NET 2.0
 // copyright  : (c) 2011-2013 by Itenso GmbH, Switzerland
 // --------------------------------------------------------------------------
-using Itenso.TimePeriod;
 
-namespace Itenso.TimePeriodDemo
+using TimePeriod;
+
+namespace TimePeriodDemo
 {
 
 	// ------------------------------------------------------------------------

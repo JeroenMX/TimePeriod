@@ -6,12 +6,15 @@
 // environment: .NET 2.0
 // copyright  : (c) 2011-2012 by Itenso GmbH, Switzerland
 // --------------------------------------------------------------------------
+
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Itenso.TimePeriod;
+using TimePeriod;
+using TimePeriod.Enums;
+using TimePeriod.Interfaces;
 
-namespace Itenso.TimePeriodDemo
+namespace TimePeriodDemo
 {
 
 	// ------------------------------------------------------------------------

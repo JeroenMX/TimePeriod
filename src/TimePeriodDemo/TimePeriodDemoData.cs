@@ -6,12 +6,13 @@
 // environment: .NET 2.0
 // copyright  : (c) 2011-2012 by Itenso GmbH, Switzerland
 // --------------------------------------------------------------------------
+
 using System;
 using System.Globalization;
-using System.Threading;
-using Itenso.TimePeriod;
+using TimePeriod;
+using TimePeriod.Enums;
 
-namespace Itenso.TimePeriodDemo
+namespace TimePeriodDemo
 {
 
 	// ------------------------------------------------------------------------

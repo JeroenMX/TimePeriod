@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimePeriod", "TimePeriod\Ti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimePeriod.Tests", "TimePeriodTests\TimePeriod.Tests.csproj", "{E3F2233F-77B6-4646-B30E-66EE813554F7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimePeriodDemo", "TimePeriodDemo\TimePeriodDemo.csproj", "{ADC53CBD-3957-411D-8FF6-FE0A9D7E6C81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E3F2233F-77B6-4646-B30E-66EE813554F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3F2233F-77B6-4646-B30E-66EE813554F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3F2233F-77B6-4646-B30E-66EE813554F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC53CBD-3957-411D-8FF6-FE0A9D7E6C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC53CBD-3957-411D-8FF6-FE0A9D7E6C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC53CBD-3957-411D-8FF6-FE0A9D7E6C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC53CBD-3957-411D-8FF6-FE0A9D7E6C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

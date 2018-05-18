@@ -7,7 +7,7 @@
 // copyright  : (c) 2011-2012 by Itenso GmbH, Switzerland
 // --------------------------------------------------------------------------
 
-namespace Itenso.TimePeriodDemo.HumanNotions
+namespace TimePeriodDemo.HumanNotions
 {
 
 	// ------------------------------------------------------------------------

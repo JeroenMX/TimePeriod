@@ -9,9 +9,10 @@
 
 using System;
 using System.Collections.Generic;
-using Itenso.TimePeriod;
+using TimePeriod;
+using TimePeriod.Interfaces;
 
-namespace Itenso.TimePeriodDemo
+namespace TimePeriodDemo
 {
 
 	// ------------------------------------------------------------------------
