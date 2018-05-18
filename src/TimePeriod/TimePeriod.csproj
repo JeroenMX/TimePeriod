@@ -5,9 +5,9 @@
     <AssemblyName>TimePeriod</AssemblyName>
     <RootNamespace>TimePeriod</RootNamespace>
     <Version>1.0.0</Version>
-    <Authors>Jani Giannoudis</Authors>
-    <Company />
-    <PackageProjectUrl></PackageProjectUrl>
+    <Authors>Jani Giannoudis, Jeroen van der Stijl</Authors>
+    <Company></Company>
+    <PackageProjectUrl>https://github.com/JeroenMX/TimePeriod</PackageProjectUrl>
     <Copyright></Copyright>
     <Description>Extensive time period calculations and individual calendar periods.</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -20,6 +20,8 @@
     <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
+    <PackageLicenseUrl>https://github.com/JeroenMX/TimePeriod/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
