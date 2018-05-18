@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>TimePeriod</AssemblyName>
+    <RootNamespace>TimePeriod</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Jani Giannoudis</Authors>
+    <Company />
+    <PackageProjectUrl></PackageProjectUrl>
+    <Copyright></Copyright>
+    <Description>Extensive time period calculations and individual calendar periods.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageTags>C# ASP.NET Windows .NET Mobile C#4.0 Windows-Phone WinForms Date Time Calendar</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageId>TimePeriodLibrary.NET</PackageId>
+    <SignAssembly>False</SignAssembly>
+    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath></OutputPath>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <DebugType>none</DebugType>
+    <DebugSymbols>False</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+    <Compile Remove="Properties\AssemblyInfo.Title.Desktop.cs" />
+    <Compile Remove="Properties\AssemblyInfo.Title.Pcl.cs" />
+    <Compile Remove="Properties\AssemblyInfo.Title.Silverlight.cs" />
+    <Compile Remove="Properties\AssemblyInfo.Title.WindowsPhone.cs" />
+    <Compile Remove="Properties\VersionInfo.cs" />
+    <Compile Remove="TimeLineMomentCollection.Desktop.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
